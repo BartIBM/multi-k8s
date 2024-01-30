@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: server
-          image: stephengrider/multi-server
+          #image: stephengrider/multi-server
+          image: bartibm/multi-server-k8s-pgfix-gh
           ports:
             - containerPort: 5000
           env:
